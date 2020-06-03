@@ -1,3 +1,38 @@
+#container
+{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.left
+{
+    height: 450px;
+    width: 200px;
+    background-color: burlywood;
+    float: left;
+}
+
+.right
+{
+    height: 500px;
+    width: 150px;
+    background-color: turquoise;
+    position: absolute;
+}
+
+header
+{
+    height: 100px;
+    background-color: yellow;
+}
+
+footer
+{
+    height: 100px;
+    background-color: grey;
+    clear: both;
+}
+
 .red
 {
     background-color: red;
@@ -5,6 +40,8 @@
     width: 200px;
     height: 200px;
     border: 2px solid goldenrod;
+    padding: 50px;
+    position: static;
 }
 
 .blue
@@ -18,4 +55,19 @@
     border-width: 5px;
     border-style: solid;
     border-color: hotpink;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.green
+{
+    background-color: green;
+    margin: 100px 50px;
+    width: 200px;
+    height: 200px;
+    border-left: 20px solid blue;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }
