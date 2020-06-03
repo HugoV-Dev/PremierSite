@@ -34,7 +34,25 @@ p
     color: green;
     font-size: 80px;
 }
-/*
+
+/* pseudo-classes de la classe "a" 
+a:link
+{
+    color: orange;
+}
+
+a:visited
+{
+    color: blue;
+    font-size: 50px;
+}
+
+a:hover
+{
+    color: orangered;
+}
+
+/* selecteur imbriqué
 div div p 
 {
     color: green;
