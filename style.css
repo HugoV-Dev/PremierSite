@@ -1,0 +1,17 @@
+p 
+{
+    /* commentaire */
+    color: red;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Système de rattrapage pour la police 
+    Si Arial installé chez le client affiche 
+    Arial sinon affiche Helvetica etc */
+    font-weight: bold; /* gras */
+    text-align: center;
+}
+
+div div p 
+{
+    font-size: 15px;
+}
