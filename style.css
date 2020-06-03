@@ -1,3 +1,15 @@
+/* style par défaut *{}
+*
+{
+    border: 2px solid black;
+}
+*/
+
+h1
+{
+color: blue;
+}
+
 p 
 {
     /* commentaire */
@@ -11,7 +23,24 @@ p
     text-align: center;
 }
 
+/* style appliqué à tous les élèments de la classe "paragraphe" */
+.paragraphe
+{
+    color: blue;
+}
+/* style appliqué à l'élèment avec l'id "unique" */
+#unique
+{
+    color: green;
+    font-size: 80px;
+}
+/*
 div div p 
 {
+    color: green;
     font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    text-align: left;
 }
+*/
