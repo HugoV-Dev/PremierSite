@@ -35,8 +35,25 @@ p
     font-size: 80px;
 }
 
-/* pseudo-classes de la classe "a" 
-a:link
+h2
+{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+}
+
+/* style appliqué au premier élèment appartenant 
+à la classe h2 
+
+h2:first-child
+{
+    font-size: 70px;
+}
+
+*/
+
+/* pseudo-classes de la classe "a" */
+a:link 
 {
     color: orange;
 }
